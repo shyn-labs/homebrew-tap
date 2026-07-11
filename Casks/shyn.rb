@@ -1,8 +1,8 @@
 # Rendered by scripts/release.sh — do not edit in the tap repo by hand.
-# 0.4.0-alpha / 8a45587e317ca467e90db39d1b9c408bf0a07fbc0eabcd95aa1b23d68810f3ba / shyn-labs/homebrew-tap are substituted at release time.
+# 0.4.1-alpha / 8477bb8bb288160b36869f65f8ece5004232bb9ce21fbf655cc224d186c9669d / shyn-labs/homebrew-tap are substituted at release time.
 cask "shyn" do
-  version "0.4.0-alpha"
-  sha256 "8a45587e317ca467e90db39d1b9c408bf0a07fbc0eabcd95aa1b23d68810f3ba"
+  version "0.4.1-alpha"
+  sha256 "8477bb8bb288160b36869f65f8ece5004232bb9ce21fbf655cc224d186c9669d"
 
   url "https://github.com/shyn-labs/homebrew-tap/releases/download/v#{version}/shyn-v#{version}-darwin-arm64.tar.gz"
   name "shyn"
@@ -24,7 +24,10 @@ cask "shyn" do
     - setup clears the download quarantine (bypasses Gatekeeper's
       notarization check) with your consent — this is an unsigned
       pre-alpha dev build.
-    - Corporate EDR (e.g. SentinelOne) may quarantine fresh binaries; an
+    - macOS lists the daemon's background item as "Node.js Foundation" —
+        that is shyn's bundled Node runtime (official nodejs.org build,
+        sha-verified), not third-party software.
+      - Corporate EDR (e.g. SentinelOne) may quarantine fresh binaries; an
       exclusion for ~/Library/Application Support/shyn may be needed.
     - Everything shyn captures stays on your Mac. Nothing phones home.
 
