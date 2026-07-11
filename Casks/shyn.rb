@@ -1,10 +1,10 @@
 # Rendered by scripts/release.sh — do not edit in the tap repo by hand.
-# 0.4.0-alpha / 8a45587e317ca467e90db39d1b9c408bf0a07fbc0eabcd95aa1b23d68810f3ba / shyn-labs/homebrew-shyn are substituted at release time.
+# 0.4.0-alpha / 8a45587e317ca467e90db39d1b9c408bf0a07fbc0eabcd95aa1b23d68810f3ba / shyn-labs/homebrew-tap are substituted at release time.
 cask "shyn" do
   version "0.4.0-alpha"
   sha256 "8a45587e317ca467e90db39d1b9c408bf0a07fbc0eabcd95aa1b23d68810f3ba"
 
-  url "https://github.com/shyn-labs/homebrew-shyn/releases/download/v#{version}/shyn-v#{version}-darwin-arm64.tar.gz"
+  url "https://github.com/shyn-labs/homebrew-tap/releases/download/v#{version}/shyn-v#{version}-darwin-arm64.tar.gz"
   name "shyn"
   desc "Local-first memory companion for MCP AI assistants (pre-alpha, Apple Silicon)"
   homepage "https://theshyn.com"
