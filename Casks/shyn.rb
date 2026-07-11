@@ -1,8 +1,8 @@
 # Rendered by scripts/release.sh — do not edit in the tap repo by hand.
-# 0.3.0-alpha / 1d4a7a301f5a02b524ba1e98c11928091fe4cbd8a994518ee177718343d628d5 / vish-al/homebrew-shyn are substituted at release time.
+# 0.4.0-alpha / 8a45587e317ca467e90db39d1b9c408bf0a07fbc0eabcd95aa1b23d68810f3ba / vish-al/homebrew-shyn are substituted at release time.
 cask "shyn" do
-  version "0.3.0-alpha"
-  sha256 "1d4a7a301f5a02b524ba1e98c11928091fe4cbd8a994518ee177718343d628d5"
+  version "0.4.0-alpha"
+  sha256 "8a45587e317ca467e90db39d1b9c408bf0a07fbc0eabcd95aa1b23d68810f3ba"
 
   url "https://github.com/vish-al/homebrew-shyn/releases/download/v#{version}/shyn-v#{version}-darwin-arm64.tar.gz"
   name "shyn"
