@@ -7,7 +7,7 @@ cask "shyn" do
   url "https://github.com/shyn-labs/homebrew-tap/releases/download/v#{version}/shyn-v#{version}-darwin-arm64.tar.gz"
   name "shyn"
   desc "Local-first memory companion for MCP AI assistants (pre-alpha, Apple Silicon)"
-  homepage "https://theshyn.com"
+  homepage "https://shyn.day"
 
   depends_on arch: :arm64
 
