@@ -1,8 +1,8 @@
 # Rendered by scripts/release.sh — do not edit in the tap repo by hand.
-# 0.5.6-alpha / 139c5aa879be39357ed2580bd652162cf925fc4595d428651f7c3c82b50c2f3a / shyn-labs/homebrew-tap are substituted at release time.
+# 0.5.7-alpha / 03a966315be880de0c02da6a0858e2e6c8472a5fbba486fc1cb055f03110fd74 / shyn-labs/homebrew-tap are substituted at release time.
 cask "shyn" do
-  version "0.5.6-alpha"
-  sha256 "139c5aa879be39357ed2580bd652162cf925fc4595d428651f7c3c82b50c2f3a"
+  version "0.5.7-alpha"
+  sha256 "03a966315be880de0c02da6a0858e2e6c8472a5fbba486fc1cb055f03110fd74"
 
   url "https://github.com/shyn-labs/homebrew-tap/releases/download/v#{version}/shyn-v#{version}-darwin-arm64.tar.gz"
   name "shyn"
